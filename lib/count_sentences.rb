@@ -14,10 +14,14 @@ class String
     self.end_with?("!")
   end
 
-  def count_sentences
-    self.split(".")
-    self.split("?")
-    self.split("!")
-    self.count
+  def count_sentences(sentence)
+    sentence.split(".")
+    sentence.split("?")
+    sentence.split("!")
+    
+ 
+    sentence.count(sentence)
+   
+    
   end
 end
