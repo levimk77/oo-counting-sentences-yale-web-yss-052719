@@ -19,8 +19,8 @@ class String
     x = self.gsub("?",".")
     x = x.gsub("!",".")
     x = x.split(".")
-    x.reject do |char| 
-      char == ""
+    x.reject do { |i|  i == "" } 
+      
     end
    return(x)
    end
