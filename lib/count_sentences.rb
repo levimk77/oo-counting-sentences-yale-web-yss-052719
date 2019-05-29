@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    x
+    x = String.new
     x = self.gsub("?",".")
     x = x.gsub("!",".")
     x = x.split(".")
