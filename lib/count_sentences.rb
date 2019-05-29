@@ -19,5 +19,6 @@ class String
     x = self.gsub("?",".")
     x = x.gsub("!",".")
     x = x.split(".")
+    x.length
    end
   end
