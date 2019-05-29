@@ -20,10 +20,10 @@ class String
     x = x.gsub("!",".")
     x = x.split(".")
     x.reject do |char| 
-      if char == " " 
+      if char == "" 
       end
     end
-    return(x)
+    x.length
    end
  
   end
