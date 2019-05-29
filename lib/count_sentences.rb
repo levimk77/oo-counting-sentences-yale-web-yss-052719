@@ -15,12 +15,8 @@ class String
   end
 
   def count_sentences(sentence)
-    sentence.split(".")
-    sentence.split("?")
-    sentence.split("!")
-    
- 
-    sentence.count(sentence)
+    sentence.split(".","?","!")
+    sentence.length(sentence)
    
     
   end
