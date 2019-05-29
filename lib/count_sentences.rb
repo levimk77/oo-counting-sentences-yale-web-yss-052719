@@ -19,6 +19,7 @@ class String
       if char == "?" || char == "!"
         char = "."
       end
+    end
     temporaryVariable = self.split(".")
     temporaryVariable.length
    
