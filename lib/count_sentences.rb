@@ -19,9 +19,9 @@ class String
     x = self.gsub("?",".")
     x = x.gsub("!",".")
     x = x.split(".")
-    
-   
-    return (x)
-    
-  end
+    x.delete_if? do |sentence|
+      if sentence == " "
+    end
+    x.length
+    end
 end
