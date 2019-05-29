@@ -21,7 +21,7 @@ class String
     x = x.split(".")
     x.delete_if? do |sentence|
       if sentence == " "
+      end
     end
     x.length
     end
-end
