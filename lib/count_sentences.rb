@@ -18,6 +18,7 @@ class String
     self.each do |char|
       if char == "?" || char == "!"
         char = "."
+      end
     temporaryVariable = self.split(".")
     temporaryVariable.length
    
