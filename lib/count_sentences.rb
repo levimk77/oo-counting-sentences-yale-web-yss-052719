@@ -15,8 +15,10 @@ class String
   end
 
   def count_sentences
-    bundle = [".", "?", "."]
-    temporaryVariable = self.split(bundle)
+    self.each do |char|
+      if char == "?" || char == "!"
+        char = "."
+    temporaryVariable = self.split(".")
     temporaryVariable.length
    
     
