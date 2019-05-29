@@ -18,9 +18,8 @@ class String
    
     self = self.gsub("?",".")
     self = self.gsub("!",".")
-    
-    temporaryVariable = self.split(".")
-    
+    self.split(".")
+    self.length
    
     
   end
