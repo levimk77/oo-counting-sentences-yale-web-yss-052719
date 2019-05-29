@@ -20,6 +20,7 @@ class String
     x = x.gsub("!",".")
     x = x.split(".")
     x.delete_if do |sent| {if sent == " "}
+  end
     x.length
    end
   end
