@@ -19,8 +19,7 @@ class String
     x = self.gsub("?",".")
     x = x.gsub("!",".")
     x = x.split(".")
+    x.delete_if do |sent| {if sent == " "}
     x.length
-    x.delete_if do |sent|
-      if sent == " "
    end
   end
