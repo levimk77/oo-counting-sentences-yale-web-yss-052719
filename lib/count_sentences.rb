@@ -17,8 +17,9 @@ class String
   def count_sentences
    
     self = self.gsub("?",".")
+    self = self.gsub("!",".")
     
-    temporaryVariable = self.split(".")
+    self.split(".")
     temporaryVariable.length
    
     
