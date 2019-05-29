@@ -16,10 +16,10 @@ class String
 
   def count_sentences
     x
-    X = self.gsub("?",".")
-    self = x.gsub("!",".")
-    self.split(".")
-    self.length
+    x = self.gsub("?",".")
+    x = x.gsub("!",".")
+    x = x.split(".")
+    x.length
    
     
   end
