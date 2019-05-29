@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    charArray = self.
+   
     self.map do |char|
       if char == "?" || char == "!"
         char = "."
