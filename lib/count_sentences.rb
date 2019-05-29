@@ -21,6 +21,7 @@ class String
     x = x.split(".")
     x.length
    
+    x.
     
   end
 end
