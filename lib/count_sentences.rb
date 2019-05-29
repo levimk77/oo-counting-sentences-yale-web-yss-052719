@@ -22,7 +22,7 @@ class String
     x.reject do |char| 
       char == ""
     end
-    return(x)
+   return(x)
    end
  
   end
