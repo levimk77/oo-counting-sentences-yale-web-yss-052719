@@ -23,7 +23,7 @@ class String
       if char == " " 
       end
     end
-    x.length
+    return(x)
    end
  
   end
