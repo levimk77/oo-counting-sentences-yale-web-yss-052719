@@ -14,10 +14,13 @@ class String
     self.end_with?("!")
   end
 
-  def count_sentences(sentence)
-    sentence.split(".","?","!")
-    sentence.length(sentence)
-   
-    
+  def count_sentences
+    x = String.new
+    x = self.gsub("?",".")
+    x = x.gsub("!",".")
+    x = x.split(".")
+    x = x.reject { |i|  i == "" } 
+    x.length
+    end
+ 
   end
-end
