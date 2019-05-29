@@ -16,11 +16,8 @@ class String
 
   def count_sentences
    
-    self.map do |char|
-      if char == "?" || char == "!"
-        char = "."
-      end
-    end
+    self.gsub("?","")
+    
     temporaryVariable = self.split(".")
     temporaryVariable.length
    
