@@ -15,8 +15,8 @@ class String
   end
 
   def count_sentences
-    
-    temporaryVariable = self.split(".","?","!")
+    bundle = [".", "?", "."]
+    temporaryVariable = self.split(bundle)
     temporaryVariable.length
    
     
