@@ -20,7 +20,7 @@ class String
     x = x.gsub("!",".")
     x = x.split(".")
     x = x.reject { |i|  i == "" } 
-    return(x)
+    x.length
     end
  
   end
