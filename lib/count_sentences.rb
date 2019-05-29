@@ -20,5 +20,6 @@ class String
     x = x.gsub("!",".")
     x = x.split(".")
     x.length
+    x.delete_if?
    end
   end
