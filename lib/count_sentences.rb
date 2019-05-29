@@ -19,7 +19,7 @@ class String
     x = self.gsub("?",".")
     x = x.gsub("!",".")
     x = x.split(".")
-    x.reject { |i|  i == "" } 
+    x = x.reject { |i|  i == "" } 
     return(x)
     end
  
